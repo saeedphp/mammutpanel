@@ -1,0 +1,42 @@
+@font-face {
+    font-family: IRANSans;
+    font-display: swap;
+    src: url(assets/fonts/eot/PinkSans.eot?#iefix) format('embedded-opentype'),
+    url(assets/fonts/ttf/PinkSans.ttf) format('truetype'),
+    url(assets/fonts/woff/PinkSans.woff) format('woff'),
+    url(assets/fonts/woff2/PinkSans.woff2) format('woff2');
+}
+
+a, p, span, button, input, h1, h2, h3, h4, h5, h6, label, th, td {
+    font-family: IRANSans;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.login-form{
+    max-width: 500px;
+    padding: 3rem 0;
+}
+
+.login-form label{
+    margin-bottom: 1rem;
+}
+
+.logo-wrapper{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
